@@ -2,6 +2,7 @@
 
 const components = [
   { id: "button", label: "Button" },
+  { id: "resource-card", label: "ResourceCard" },
 ];
 
 export default function Sidebar({ activeComponent, onSelect }) {

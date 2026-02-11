@@ -1,10 +1,12 @@
 "use client";
 
 import ButtonDoc from "@/components/ui-kit/docs/button-doc";
+import ResourceCardDoc from "@/components/ui-kit/docs/resource-card-doc";
 import ThemeSwitcher from "@/components/ui-kit/theme-switcher";
 
 const docs = {
   button: ButtonDoc,
+  "resource-card": ResourceCardDoc,
 };
 
 export default function ContentArea({ activeComponent }) {
