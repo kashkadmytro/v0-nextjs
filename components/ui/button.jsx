@@ -4,17 +4,17 @@ import { forwardRef } from "react";
 
 const variantStyles = {
   primary:
-    "bg-primary text-primary-foreground hover:opacity-90",
+    "bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90",
   secondary:
-    "bg-muted text-foreground hover:bg-muted/80",
+    "bg-[var(--muted)] text-[var(--foreground)] hover:opacity-80",
   outline:
-    "border border-border bg-transparent text-foreground hover:bg-muted",
+    "border border-[var(--border)] bg-transparent text-[var(--foreground)] hover:bg-[var(--muted)]",
   ghost:
-    "bg-transparent text-foreground hover:bg-muted",
+    "bg-transparent text-[var(--foreground)] hover:bg-[var(--muted)]",
   destructive:
-    "bg-destructive text-destructive-foreground hover:opacity-90",
+    "bg-[var(--destructive)] text-[var(--destructive-foreground)] hover:opacity-90",
   link:
-    "bg-transparent text-accent underline-offset-4 hover:underline p-0 h-auto",
+    "bg-transparent text-[var(--accent)] underline-offset-4 hover:underline p-0 h-auto",
 };
 
 const sizeStyles = {
